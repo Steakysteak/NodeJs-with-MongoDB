@@ -14,7 +14,7 @@ const MongoClient = mongodb.MongoClient;
 
 const mongoConnect = (callback) => {
     MongoClient
-    .connect('mongodb+srv://nodelessons:nodelessons@node-lessons-wdsqh.mongodb.net/test?retryWrites=true')
+    .connect('mongodb+srv://singhutkarsh5032:<password>@cluster0.6id40bv.mongodb.net/?retryWrites=true&w=majority')
     .then(result => {
         console.log('connected!')
         callback(result);
